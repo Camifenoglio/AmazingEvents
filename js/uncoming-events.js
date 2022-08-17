@@ -89,7 +89,7 @@ async function getData() {
                         <p class="card-text d-flex justify-content-start text-center">${elemento.description}</p>
                         <div class="d-flex justify-content-between align-items-center ps-2 pe-2">
                         <p class="mb-0" >Price: ${elemento.price}usd</p>
-                        <button><a href="/details.html?id=${elemento._id}" class="btn btn-dark"> More info</a></button>            </div>
+                        <button><a href="./details.html?id=${elemento._id}" class="btn btn-dark"> More info</a></button>            </div>
                     </div>      
                 </div>`
                 }
