@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 15vh;
+    height: fit-content;
+    background-image: url(/Images/fondo.jpg);
+    background-size: cover;
+    background-position-y: -6.5rem;
+}
+
+.headerDetails {height: 15vh !important;}
+
+.navbar {
+    height: 15vh;
+}
+
+/* barra navegacion y logo */
+.estiloNavbar {
+    background-color: #ffeab5fb;
+    border-radius: 40px;
+}
+
+.logo {
+    height: 3rem;
+}
+
+.nav-link {
+    color: #D90368 !important;
+    width: 6rem;
+    text-align: center;
+    font-size: 2.9vh;
+    font-weight: 500 !important;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid rgba(223, 205, 247, 0.445);
+    color: rgba(124, 27, 250, 0.445) !important;
+}
+
+/* seccion titulo 1 */
+
+.tituloPrincipal {
+    background-color: #d9036713;
+    min-height: 15vh;
+    height: fit-content;
+}
+
+/* menu desplegable */
+
+.dropdown-menu {
+    background-color: #ffeab5fb;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.dropdown-item {
+    color: #D90368;
+}
+
+.dropdown-item:hover {
+    background-color: #f8c9518c;
+    border-radius: 15px;
+}
+
+h1 {
+    color: black;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 800;
+}
+
+/* boton end, siguiente pagina */
+.botonNext {
+    background-color: transparent;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+/* boton start pagina previa */
+.botonIzquierda {
+    background-color: transparent;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+/* main  */
+
+main {
+    background-color: #856842ec;
+    min-height: 75vh;
+}
+
+/* checkpoint */
+
+label {color: #EFA341;
+    margin-right: 0.5rem;
+}
+
+input [type=checkbox] + label::before {
+    background-color: #EFA341 !important;
+}
+
+/* lupa */
+.botonLupa {border: none;
+    width: 2vw;
+    background-color: transparent;
+}
+
+.inputBusqueda {
+    background-color: #d8823b42;
+    height: 5vh;
+    border-radius: 10px;
+    border-bottom: 2px solid #EFA341;
+}
+
+
+.lupa {height: 5vh;
+background-color:  #d8823b;
+border-radius: 10px;
+}
+
+/* card */
+
+.card {
+    background-image: url(/Images/fondo.jpg);
+    background-size: 270%;
+    background-position-Y: 5rem;
+    border-radius: 1rem;
+    font-size: 3vh;
+    font-weight: 500;
+}
+
+.card-body {
+    background-color: #ffeab5be;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    font-size: 2.5vh;
+}
+
+.card-title {
+    color: rgba(34, 104, 34, 0.863);
+    font-weight: 900;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 33vh;
+    border-radius: 1.5rem;
+}
+
+.card-text {
+    font-size: 2.5vh;
+}
+
+/* card zoom */
+
+.cardAmpliada {
+    background-position-Y: -10.5rem;
+    background-position-X: 5rem;
+    justify-content: center;
+    border-radius: 2rem;
+    min-height: 50vh;
+}
+
+.imgCardAmpliada {
+    border-radius: 2rem !important;
+    min-height: 45vh;
+    object-fit: cover;
+}
+
+.cardBody {
+    background-color: #ffdbc5e7;
+    border-radius: 3rem;
+    min-height:45vh;
+}
+
+.card-text {
+    margin-bottom: 0rem;
+    min-height: 20vh !important;
+}
+.cardAmpliadaTexto {
+    min-height: 40vh;
+}
+
+/* contacto */
+/* formulario */
+
+.formContact {
+    width: 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vh;
+}
+.inputContact {
+    min-width: 70vw;
+}
+
+.inputContact2 {background-color: #e68b16a1 ;
+    min-width: 70vw;
+    border-radius: 10px;
+}
+
+.formContact input {border: none;
+    border-radius: 10px;
+    border-bottom: 2px solid #EFA341;
+    background-color: rgba(197, 166, 28, 0.329) !important;}
+
+input:hover {background-color: rgba(34, 104, 34, 0.233) !important;}
+
+.textareaContact {
+    width: 100%;
+    border-radius: 10px !important;
+    background-color: rgba(197, 166, 28, 0.178);
+    border: none;
+    border-bottom: 2px solid #EFA341;
+    resize: none;
+}
+.textareaContact:hover {background-color: rgba(34, 104, 34, 0.233);}
+
+/* tabla */
+
+.table {
+    width: 80%;
+    border: 2px solid #EFA341;
+    color: #FFF4C7;
+}
+
+td { color: #FFF4C7 !important; 
+    width: 30%;
+}
+
+th {color:#ecd98e !important; 
+}
+
+td span {font-weight: 600;
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: rgba(34, 104, 34, 0.705);
+    min-height: 10vh;
+}
+
+.imgFooter {
+    height: 8vh;
+}
+footer div {margin-left: 1rem;}
+
+footer p {margin-right: 1rem;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 3vh;
+    color: #EFA341;
+}
